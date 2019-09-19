@@ -1,8 +1,0 @@
-
-$('.agency').map((i, element) => [
-    $(element).find('h2').text(), // 
-    $(element).find('h6').text(),
-    $(element).find('.team-size').text(),
-    $(element).find('.connect-website-tile').attr('href')
-].join('\t')).get().join('\n')
-
